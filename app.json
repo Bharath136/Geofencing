@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Revisit",
+    "slug": "Revisit",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/Revisit-Logo.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/Revisit-Logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/Revisit-Logo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.bharath_expo.Revisit"
+    },
+    "web": {
+      "favicon": "./assets/images/Revisit-Logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d3c93ac2-e354-40c4-9fac-f5a30df132f8"
+      }
+    }
+  }
+}
