@@ -1,3 +1,4 @@
+import axios from "axios";
 import apiClient from "./api";
 
 // Function to fetch a single user by ID
@@ -19,6 +20,8 @@ export const verifyOtp = async (email, otp) => {
 
 // Function to log in a user
 export const loginUser = async (email, role) => {
+    // console.log("http://192.168.0.101:5000/api/v1/auth/login-email", email, role)
+    // return await axios.post('http://192.168.0.101:5000/api/v1/auth/login-email', {email})
     return await apiClient.post('/auth/login-email', { email, role });
 };
 

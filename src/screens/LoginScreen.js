@@ -21,11 +21,12 @@ const LoginScreen = ({ navigation }) => {
   const handleLogin = async () => {
     setLoading(true);
     try {
-      await loginUser(email);
+      await loginUser(email,'owner');
       setLoading(false);
       navigation.navigate('OTPLogin', { email });
     } catch (error) {
       setLoading(false);
+      console.log("Hello", error)
       Alert.alert('Login failed', error.message || 'An error occurred');
     }
   };

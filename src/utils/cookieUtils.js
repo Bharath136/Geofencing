@@ -1,7 +1,9 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 // API Base URL
-export const API_BASE_URL = 'https://geofencebackend.onrender.com/api/v1';
+// export const API_BASE_URL = 'https://geofencebackend.onrender.com/api/v1';
+// export const API_BASE_URL = 'http://localhost:5000/api/v1';
+export const API_BASE_URL = 'http://192.168.0.101/api/v1'
 
 // Save user data to async storage
 export const setUserData = async (userData) => {
